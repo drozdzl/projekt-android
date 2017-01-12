@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".RegisterActivity"
+    android:weightSum="1"
+    android:textAlignment="center"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            >
+
+            <ImageView
+                android:layout_width="@dimen/icon_width"
+                android:layout_height="26dp"
+                android:src="@drawable/user"
+                android:layout_gravity="left|center_vertical"
+                android:layout_alignLeft="@+id/emailEditTextView"
+                android:layout_marginLeft="@dimen/icon_margin"
+
+
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/register_activity_height"
+                android:hint="@string/registerActivityLoginHint"
+                android:textSize="@dimen/registerActivityEditTextSize"
+                android:singleLine="true"
+                android:layout_gravity="left|center_vertical"
+                android:id="@+id/loginEditText"
+                android:paddingLeft="@dimen/text_padding_register_activity"
+
+                />
+
+        </FrameLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/register_activity_height"
+                android:hint="@string/registerActivityEmailHint"
+                android:singleLine="true"
+                android:textSize="@dimen/registerActivityEditTextSize"
+                android:layout_gravity="left"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="@dimen/text_padding_register_activity"
+                android:id="@+id/emailEditText"
+                />
+            <ImageView
+                android:layout_width="@dimen/icon_width"
+                android:layout_height="25sp"
+                android:src="@drawable/at"
+                android:layout_alignLeft="@+id/emailEditTextView"
+                android:layout_marginLeft="@dimen/icon_margin"
+                android:layout_gravity="left|center_vertical"
+                />
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/register_activity_height"
+                android:hint="@string/registerActivityPasswordHint"
+                android:singleLine="true"
+                android:textSize="@dimen/registerActivityEditTextSize"
+                android:layout_gravity="left"
+                android:id="@+id/passwordEditText"
+                android:paddingLeft="@dimen/text_padding_register_activity"
+                />
+            <ImageView
+                android:layout_width="@dimen/icon_width"
+                android:layout_height="25sp"
+                android:src="@drawable/lockedpadlock"
+                android:layout_alignLeft="@+id/passwordEditText"
+                android:layout_marginLeft="@dimen/icon_margin"
+                android:inputType="textPassword"
+                android:layout_gravity="left|center_vertical" />
+        </FrameLayout>
+    </LinearLayout>
+    <Button
+        android:layout_width="150sp"
+        android:layout_height="30sp"
+        android:text="@string/LoginButton"
+        android:id="@+id/loginButton"
+        android:textAlignment="center"
+        android:textColor="@color/submitButtonTextColor"
+        android:layout_marginTop="@dimen/registerActivityEditTextPadding"
+        android:background="@drawable/submit_button_rounded_corners"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>

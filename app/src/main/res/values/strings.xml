@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Aplikacja</string>
+    <string name="title_activity_activity_b">ActivityB</string>
+    <string name="registerWelcomeText">Zarejestruj się</string>
+    <string name="registerActivityLoginHint">Login</string>
+    <string name="registerActivityEmailHint">Email</string>
+    <string name="registerActivityPasswordHint">Haslo</string>
+    <string name="registerActivityPasswordRepeatHint">powtorz haslo</string>
+    <string name="registerActivityShowMore">wiecej...</string>
+    <string name="registerActivityFirstNameHint">Imie</string>
+    <string name="registerActivityPlaceHint">Miejscowość</string>
+    <string name="registerActivityBirthDateHint">Data urodzenia</string>
+    <string name="createAccountButtonName">Stwórz konto</string>
+    <string name="registerActivityRules">Klikając akceptujesz regulamin</string>
+    <string name="loginErrorToShort">Login za krótki</string>
+    <string name="passwordErrorToShort">Hasło za krótkie</string>
+    <string name="passwordsDontMatch">"Hasło za krótkie, lub hasla nie sa takie same "</string>
+    <string name="toastRegistered">zarejestrowyany</string>
+    <string name="showHideButtonLess">mniej...</string>
+    <string name="showHideButtonMore">wiecej...</string>
+    <string name="rulesFirstStatement">"Klikajac akceptujesz "</string>
+    <string name="rulesSecondStatement"><![CDATA[<font color=\'#EE0000\'>Regulamin</font>]]></string>
+    <string name="title_activity_asaas">asaas</string>
+    <string name="emailError">Wprowadź email</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="LoginButton">Zaloguj</string>
+</resources>

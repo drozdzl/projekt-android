@@ -1,0 +1,13 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="registerActivityEditTextSize">18sp</dimen>
+    <dimen name="registerActivityRulesText">15sp</dimen>
+    <dimen name="registerActivityEditTextPadding">25sp</dimen>
+    <dimen name="icon_margin">20sp</dimen>
+    <dimen name="register_activity_height">60dp</dimen>
+    <dimen name="icon_width">20sp</dimen>
+    <dimen name="text_padding_register_activity">70sp</dimen>
+</resources>
